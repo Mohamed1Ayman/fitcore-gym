@@ -1,0 +1,859 @@
+/* Global Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+
+:root {
+  --primary: #000000;
+  --hero-bg: #fdfdfe;
+  --secondary: #fbfcfd;
+  --third: #ffffff;
+  --p: #526479;
+  --flexible-hours: #9810fa;
+  --flexible-background: #f3e8ff;
+  --Expert-Trainers: #009966;
+  --Expert-Trainers-background: #e0f7f3;
+  --Premium-Equipment: #155dfc;
+  --Premium-Equipment-background: #dbeafe;
+  --achivements-bar-bg: #f1f5f9;
+  --btn-learn-border: #d1d5dc;
+  --what-our-andForm-bg: #f9fafb;
+  --footer-bg: #101828;
+  --footer-span-color: #45596f;
+}
+
+p {
+  color: var(--p);
+  font-size: 18px;
+}
+
+.clear {
+  clear: both;
+}
+
+.container {
+  width: 80%;
+  max-width: 1400px;
+  margin: auto;
+  padding: 50px 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--footer-span-color);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* End Global Styles */
+
+/* Hero Styles */
+#hero-section {
+  background-color: var(--hero-bg);
+  padding-top: 20px;
+  margin-bottom: 40px;
+}
+
+.text {
+  width: 50%;
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.text h1 {
+  font-size: 48px;
+  margin-bottom: 50px;
+}
+
+.text p {
+  color: var(--p);
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+/* الصورة */
+#hero-section .container .image {
+  width: 33%;
+  float: right;
+  margin-right: 40px;
+}
+
+#hero-section .container .image img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+button {
+  padding: 20px 30px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: var(--third);
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 2px solid var(--btn-learn-border);
+}
+/* End Hero Styles */
+
+/* Benefits Section Styles */
+
+.benefits-text {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+
+.benefits-text h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.benefits-text p {
+  color: var(--p);
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.benefits-cards .card {
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+  width: 31.3%;
+  float: left;
+  margin: 10px;
+}
+
+.benefits-cards .card h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.benefits-cards .card .shape {
+  width: 60px;
+  height: 60px;
+  margin: 10px auto;
+  border-radius: 15px;
+}
+
+.benefits-cards .blue-card {
+  background-color: var(--Premium-Equipment-background);
+}
+
+.benefits-cards .card .shape .square {
+  border-radius: 5px;
+}
+
+.benefits-cards .card .blue {
+  background-color: var(--Premium-Equipment);
+  border: 1px solid var(--Premium-Equipment);
+}
+
+.benefits-cards .card .shape span {
+  display: block;
+  width: 50%;
+  height: 50%;
+  background-color: var(--what-our-andForm-bg);
+  margin: 15px auto;
+}
+
+.benefits-cards .green-card {
+  background-color: var(--Expert-Trainers-background);
+}
+
+.benefits-cards .card .shape .circle {
+  border-radius: 50%;
+}
+
+.benefits-cards .card .green {
+  background-color: var(--Expert-Trainers);
+  border: 1px solid var(--Expert-Trainers);
+}
+
+.benefits-cards .purple-card {
+  background-color: var(--flexible-background);
+  padding-bottom: 45px;
+}
+
+.benefits-cards .card .purple {
+  background-color: var(--flexible-hours);
+  border: 1px solid var(--flexible-hours);
+}
+
+.more-than-container {
+  margin-top: 40px;
+}
+
+.more-than-container .image {
+  width: 45%;
+  float: left;
+}
+
+.more-than-container .image img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.more-than-text-container {
+  width: 50%;
+  float: right;
+}
+
+.more-than-text-container h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.more-than-text-container p {
+  color: var(--p);
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.more-than-text-container .text-container {
+  border-left: 5px solid var(--primary);
+  padding-left: 20px;
+}
+/* End Benefits Section Styles */
+
+/* start members say section styles */
+#members-say-section {
+  background-color: var(--what-our-andForm-bg);
+  padding: 50px 0;
+}
+
+#members-say-section .members-text {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#members-say-section .members-text h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#members-say-section .members-text p {
+  color: var(--p);
+  font-size: 18px;
+}
+
+#members-say-section .members-cards .card {
+  padding: 20px;
+  border-radius: 15px;
+  width: 31.3%;
+  float: left;
+  margin: 10px;
+}
+
+#members-say-section .members-cards .card .pepole-say {
+  margin-top: 20px;
+}
+
+#members-say-section .members-cards .card .info-box {
+  float: right;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+#members-say-section .members-cards .card h3 {
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+
+#members-say-section .members-cards .card .info-img {
+  width: 60px;
+  height: 60px;
+  margin: 5px 5px 5px 0;
+  float: left;
+}
+
+#members-say-section .members-cards .card .info-img img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+#members-say-section .container .card-blue {
+  background-color: var(--Premium-Equipment-background);
+}
+
+#members-say-section .container .card-green {
+  background-color: var(--Expert-Trainers-background);
+}
+
+#members-say-section .container .card-purple {
+  background-color: var(--flexible-background);
+}
+
+#members-say-section .container .achevments-bar {
+  background-color: var(--achivements-bar-bg);
+  padding: 40px 10px;
+  border-radius: 15px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#members-say-section .container .achevments-bar .achive-box {
+  float: left;
+  width: 23%;
+  text-align: center;
+}
+
+#members-say-section .container .achevments-bar .achive-box span {
+  display: block;
+  font-size: 20px;
+  color: var(--p);
+}
+
+#members-say-section .container .achevments-bar .achive-box .number {
+  font-size: 36px;
+  color: var(--primary);
+  font-weight: 700;
+}
+
+/* end members say section styles */
+
+/* start contact section styles */
+
+#contact-section .container .contact-qusetion {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#contact-section .container .contact-qusetion h2 {
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+#contact-section .container .contact-qusetion p {
+  color: var(--p);
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+#contact-section .container form {
+  width: 70%;
+  margin: 0 auto;
+  background: var(--what-our-andForm-bg);
+  padding: 40px;
+  border-radius: 15px;
+}
+
+#contact-section .container form input,
+#contact-section .container form textarea {
+  margin-bottom: 20px;
+  padding: 20px 15px;
+  width: 100%;
+  border: 1px solid var(--btn-learn-border);
+  border-radius: 10px;
+  font-size: 20px;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+
+#contact-section .container form textarea {
+  resize: none;
+  height: 100px;
+}
+
+#contact-section .container form label {
+  display: block;
+  margin-bottom: 10px;
+  color: var(--primary);
+  font-weight: 600;
+}
+
+#contact-section .container form .fname {
+  float: left;
+  width: 50%;
+}
+
+#contact-section .container form .lname {
+  float: right;
+  width: 50%;
+  padding-left: 10px;
+}
+
+#contact-section .container form select {
+  width: 100%;
+  padding: 20px 15px;
+  border: 1px solid var(--btn-learn-border);
+  border-radius: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+
+#contact-section .container form .btn-primary {
+  width: 100%;
+  padding: 20px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#contact-section .container form p {
+  color: var(--p);
+  font-size: 16px;
+  text-align: center;
+}
+
+/* end contact section styles */
+
+/* start footer styles */
+#footer {
+  background-color: var(--footer-bg);
+  padding: 20px 0;
+}
+
+#footer .container h2 {
+  color: var(--third);
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+#footer .container .fit-core .social-links ul li {
+  float: left;
+  padding-right: 20px;
+  margin-top: 30px;
+}
+
+#footer .container .fit-core .social-links ul li a,
+#footer .container .quick-links ul li a {
+  color: var(--footer-span-color);
+}
+
+#footer .container .float {
+  width: 25%;
+  float: left;
+}
+
+#footer .container .fit-core {
+  width: 50%;
+}
+
+#footer .container h3,
+h4 {
+  color: var(--third);
+  padding: 10px 0;
+}
+
+#footer .container .quick-links ul li {
+  padding-bottom: 20px;
+}
+
+#footer .container .end-footer {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid var(--footer-span-color);
+}
+
+#footer .container .end-footer .float {
+  float: left;
+}
+#footer .container .end-footer .copy-right {
+  width: 50%;
+}
+
+#footer .container .end-footer .policy ul li {
+  float: left;
+  padding-right: 15px;
+}
+
+#footer .container .end-footer .float-right {
+  float: right;
+}
+
+/* end footer styles */
+
+/* ========== RESPONSIVE MEDIA QUERIES ========== */
+
+/* Tablet (768px - 1024px) */
+@media (max-width: 1024px) {
+  .container {
+    width: 90%;
+  }
+
+  .text h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+
+  .text p {
+    font-size: 16px;
+  }
+
+  button {
+    padding: 15px 25px;
+    font-size: 18px;
+  }
+
+  #hero-section .container .image {
+    width: 40%;
+    margin-right: 10px;
+  }
+
+  .benefits-text {
+    width: 80%;
+  }
+
+  .benefits-cards .card {
+    width: 30%;
+    margin: 8px;
+  }
+
+  #members-say-section .members-cards .card {
+    width: 30%;
+    margin: 8px;
+  }
+
+  #contact-section .container .contact-qusetion {
+    width: 80%;
+  }
+
+  #contact-section .container form {
+    width: 90%;
+  }
+
+  #footer .container .fit-core {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  #footer .container .float {
+    width: 33.33%;
+  }
+}
+
+/* Mobile (481px - 767px) */
+@media (max-width: 767px) {
+  .container {
+    width: 95%;
+    padding: 30px 0;
+  }
+
+  /* Hero Section Mobile */
+  #hero-section .container .text {
+    width: 100%;
+    float: none;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .text h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .text p {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+
+  #hero-section .container .image {
+    width: 80%;
+    float: none;
+    margin: 30px auto 0;
+    text-align: center;
+  }
+
+  button {
+    padding: 12px 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 100%;
+    display: block;
+  }
+
+  /* Benefits Section Mobile */
+  .benefits-text {
+    width: 100%;
+  }
+
+  .benefits-text h2 {
+    font-size: 26px;
+  }
+
+  .benefits-cards .card {
+    width: 100%;
+    float: none;
+    margin: 10px 0;
+  }
+
+  .more-than-container .image {
+    width: 100%;
+    float: none;
+    margin-bottom: 30px;
+  }
+
+  .more-than-text-container {
+    width: 100%;
+    float: none;
+  }
+
+  .more-than-text-container h2 {
+    font-size: 26px;
+  }
+
+  /* Members Section Mobile */
+  #members-say-section .members-text h2 {
+    font-size: 26px;
+  }
+
+  #members-say-section .members-cards .card {
+    width: 100%;
+    float: none;
+    margin: 10px 0;
+  }
+
+  #members-say-section .members-cards .card .info-box {
+    width: 75%;
+  }
+
+  #members-say-section .container .achevments-bar .achive-box {
+    width: 50%;
+    float: left;
+    margin-bottom: 20px;
+  }
+
+  #members-say-section .container .achevments-bar .achive-box .number {
+    font-size: 28px;
+  }
+
+  #members-say-section .container .achevments-bar .achive-box span {
+    font-size: 16px;
+  }
+
+  /* Contact Section Mobile */
+  #contact-section .container .contact-qusetion {
+    width: 100%;
+  }
+
+  #contact-section .container .contact-qusetion h2 {
+    font-size: 26px;
+  }
+
+  #contact-section .container form {
+    width: 100%;
+    padding: 20px;
+  }
+
+  #contact-section .container form .fname,
+  #contact-section .container form .lname {
+    float: none;
+    width: 100%;
+    padding-left: 0;
+  }
+
+  #contact-section .container form input,
+  #contact-section .container form textarea,
+  #contact-section .container form select {
+    padding: 12px 10px;
+    font-size: 16px;
+  }
+
+  #contact-section .container form label {
+    font-size: 14px;
+  }
+
+  /* Footer Mobile */
+  #footer .container .float {
+    width: 100%;
+    float: none;
+    margin-bottom: 30px;
+  }
+
+  #footer .container .fit-core {
+    width: 100%;
+  }
+
+  #footer .container h2 {
+    font-size: 24px;
+  }
+
+  #footer .container h3 {
+    font-size: 18px;
+  }
+
+  #footer .container .end-footer .copy-right {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  #footer .container .end-footer .policy {
+    width: 100%;
+    float: none;
+  }
+
+  #footer .container .end-footer .policy ul {
+    text-align: center;
+  }
+
+  #footer .container .end-footer .policy ul li {
+    float: none;
+    display: inline-block;
+    padding: 5px 10px;
+  }
+
+  #footer .container .end-footer .float-right {
+    float: none;
+    text-align: center;
+  }
+
+  #footer .container .fit-core .social-links ul li {
+    float: none;
+    display: inline-block;
+    margin-top: 15px;
+  }
+}
+
+/* Small Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+  .container {
+    width: 95%;
+    padding: 20px 10px;
+  }
+
+  .text h1 {
+    font-size: 24px;
+  }
+
+  .text p {
+    font-size: 14px;
+  }
+
+  button {
+    padding: 12px 15px;
+    font-size: 14px;
+  }
+
+  #hero-section .container .image {
+    width: 100%;
+  }
+
+  .benefits-text h2 {
+    font-size: 22px;
+  }
+
+  .benefits-text p {
+    font-size: 14px;
+  }
+
+  .more-than-text-container h2 {
+    font-size: 22px;
+  }
+
+  .more-than-text-container h3 {
+    font-size: 18px;
+  }
+
+  #members-say-section .members-text h2 {
+    font-size: 22px;
+  }
+
+  #members-say-section .members-text p {
+    font-size: 14px;
+  }
+
+  #members-say-section .container .achevments-bar .achive-box {
+    width: 100%;
+    float: none;
+    margin-bottom: 25px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--btn-learn-border);
+  }
+
+  #members-say-section .container .achevments-bar .achive-box:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+
+  #contact-section .container .contact-qusetion h2 {
+    font-size: 22px;
+  }
+
+  #contact-section .container .contact-qusetion p {
+    font-size: 14px;
+  }
+
+  #contact-section .container form {
+    padding: 15px;
+  }
+
+  #contact-section .container form .btn-primary {
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  #footer .container h2 {
+    font-size: 20px;
+  }
+
+  #footer .container h3 {
+    font-size: 16px;
+  }
+
+  #footer .container p,
+  #footer .container a {
+    font-size: 14px;
+  }
+}
